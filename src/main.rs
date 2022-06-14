@@ -1,6 +1,11 @@
+#[warn(non_snake_case)]
+
 mod error;
-mod argument;
+mod argument; 
+mod employee_data;
 
 fn main() {
-    println!("Hello, world!");
+    
+    employee_data::run();
+    
 }
